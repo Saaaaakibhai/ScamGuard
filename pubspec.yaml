@@ -1,0 +1,48 @@
+name: scamguard
+description: "A project where we integrate the machine learning model."
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: "^0.14.1"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/fraud.png"  # Correct path to the image file
+  min_sdk_android: 24
+  adaptive_icon_backgroud: "#ffffff"
+  adaptive_icon_foregroud: "assets/fraud.png"
+  web:
+    generate: true
+    image_path: "assets/fraud.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/fraud.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/fraud.png"
+
+flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - lib/image/scamguardbackground.png
+

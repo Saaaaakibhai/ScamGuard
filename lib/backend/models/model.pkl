@@ -1,0 +1,4 @@
+import joblib  # For saving sklearn models
+
+# Assuming 'model' is your trained model
+joblib.dump(model, 'model.pkl')  # Save the model
