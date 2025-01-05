@@ -8,10 +8,14 @@ environment:
   sdk: ^3.5.4
 
 dependencies:
+  http: ^1.0.0
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
   flutter_launcher_icons: "^0.14.1"
+  firebase_core: ^3.8.1 # Ensure firebase_core is added
+  firebase_auth: ^5.3.4  # Add the firebase_auth package
+  cloud_firestore: ^5.5.1
 
 dev_dependencies:
   flutter_test:

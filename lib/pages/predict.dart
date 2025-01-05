@@ -14,11 +14,14 @@ class _PredictPageState extends State<PredictPage> {
 
   // Function to handle scam detection logic
   void _detectScam() {
-    String websiteLink = _controller.text;
+    String websiteLink = _controller.text.toLowerCase();
+
+    // Regex pattern for valid domain (matching www.example.com type)
+    final validDomainPattern = RegExp(r"^(www\.)?[a-z0-9]+\.[a-z]{2,}$");
 
     // Replace with actual model or API call
     setState(() {
-      if (websiteLink.contains("scam")) {
+      if (websiteLink.contains("scam") || !validDomainPattern.hasMatch(websiteLink)) {
         _result = "This website is a Scam!";
         isScam = true;
       } else {
