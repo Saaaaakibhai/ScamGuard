@@ -73,11 +73,7 @@ This version includes:
 ## Here Some Demo Picture:
 
 ![image](https://github.com/user-attachments/assets/7e21da0f-58db-4a6f-977e-19c97befbe8e)
-![image](https://github.com/user-attachments/assets/fceb9f23-d935-41d3-8e76-8e9e3d45578f)
+![image](https://github.com/user-attachments/assets/57355196-20f6-47cc-95b1-3c0c70692ca0)
 ![image](https://github.com/user-attachments/assets/b84c6209-c203-47e8-b8a6-b81de229616c)
 ![image](https://github.com/user-attachments/assets/5da1fecf-00e3-40e3-bb75-8a88395825b6)
-
-
-
-
 
